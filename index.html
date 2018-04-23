@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>WP Docs</title>
+  <title>WP Docs — онлайн рукводство по работе с Wordpress!</title>
 
   <link rel="icon" href="icons/favicon.png" type="images/x-icon" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600&amp;subset=cyrillic-ext">
@@ -140,9 +140,52 @@
             которые требуют одобрения, и виджет <span class="strong">quick draft / быстрый черновик</span>, который позволяет создать новый пост без публикации.
           </p>
           <p>
-            В основных вкладках, таких как <span class="strong">posts / записи</span>, <span class="strong">pages / страницы</span> и других, рабочая поверхность
-            имеет стандартный (по большей части) ряд элементов управления.
+            В основных вкладках, таких как <span class="strong">posts / записи</span> и <span class="strong">pages / страницы</span>, рабочая поверхность
+            имеет стандартный ряд элементов управления.
           </p>
+          <img src="images/get-started_dashboard_main.png" alt="WP Docs | Dashboard">
+          <div class="vertical-holder">
+            <span class="image">
+              <img src="images/get-started_dashboard_main-left.png" alt="WP Docs | Dashboard - Main area">
+            </span><!-- .image -->
+
+            <div class="content">
+              <p>
+                Кнопка <span class="strong">add new / добавить новую</span> откроет страницу добавления нового матераиала.
+              </p>
+              <p>
+                Далее идет ряд фильтров, которые могут показывать все материалы, только опубликованные и содержимое корзины.
+                Важная деталь &ndash; после удаления материала, он попадает в корзину, откуда может быть восстановлен или полностью удален.
+                Помните, что если Вы удалили материал (в корзину), и хотите создать новый материал с таким же названием &ndash; это не сработает.
+                Будет создан новый материал с приставкой в ссылке <span class="strong">-1</span> (подробнее о ссылках и материалах далее).
+                В этом случае материал из корзины нужно удалить полностью.
+              </p>
+              <p>
+                Далее идет выпадающий список <span class="strong">Bulk Actions / Действия</span>, который предназначен для групповой
+                обработки выбранных материалов (удаление, восстановление и т.п.). Рядом с ним находится фильтр сортировки по дате.
+              </p>
+              <p>
+                Далее идет список материалов. При наведении на конкретный материал, появится ряд функциональных кнопок*, которые позволяют
+                отредактировать страницу, просмотреть ее или удалить.
+              </p>
+            </div><!-- .content -->
+          </div><!-- .vertical-holder -->
+          <div class="vertical-holder">
+            <span class="image">
+              <img src="images/get-started_dashboard_main-right.png" alt="WP Docs | Dashboard - Main area">
+            </span><!-- .image -->
+
+            <div class="content">
+              <p>
+                В правой части находится поиск по материалам.
+              </p>
+              <p>
+                Ниже представлены данные касательно каждого материала*. Из стандартных, как правило, идут автор материала, дата публикации и
+                наличие комментариев к этому материалу.
+              </p>
+            </div><!-- .content -->
+          </div><!-- .vertical-holder -->
+
           <span class="notice">* &ndash; Количество элементов управления может отличатся, в зависимости от установленной темы и плагинов.
           </span>
         </div><!-- .dashboard-control_panel -->
@@ -150,8 +193,28 @@
 
     </section><!-- .get-started -->
 
-     <section class="get-started">
+    <section class="default-sections">
       <h2>Панель управления</h2>
+
+      <div class="part-holder page-media">
+        <h3>Media Library | Медиафайлы</h3>
+        <p>
+          Данная вкладка отвечает за работу с медифайлами на сайте. Рабочая поверхность имеет стандартный ряд фильтров и переключателей, таких как отображение
+          всех элементов таблицей / списком, сортировка по типу файлов, сортировка по дате, множественный выбор и поиск.
+        </p>
+        <img src="images/default-sections_media-library.png" alt="WP Docs | Media page">
+        <p>
+          В работе с медиафайлами существует ряд ограничений и рекомендаций. Рекомендуеся придерживатся их, чтобы избежать поломок на сайте, а
+          также снижения его скорости работы.
+        </p>
+        <div class="part-in-holder page-media-reminders">
+          <h4>Рекомендации</h4>
+          <p>
+            Данная панель имеет ряд кнопок, каждая из которых перейдет на соответствующую страницу редактирования или настройки*.
+          </p>
+          <img src="images/get-started_dashboard_top-left.png" alt="WP Docs | Dashboard - Top panel">
+        </div><!-- .page-media-reminders -->
+      </div><!-- .page-media -->
 
       <div class="part-holder page-users">
         <h3>Users | Пользователи</h3>
@@ -182,7 +245,7 @@
         <p>
           Менять статус учетной записи может любой администратор.
         </p>
-      </div><!-- .account-permissions -->
+      </div><!-- .page-users -->
 
     </section><!-- .get-started -->
 
